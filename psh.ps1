@@ -3,9 +3,9 @@ $mssg = Read-Host -Prompt 'ENTER GITHUB MESSAGE'
 echo $mssg
 if($mssg){
  echo "Pushing...$mssg" 
-#  git add .
-#  git commit -m"$mssg"
-#  git push
+ git add .
+ git commit -m"$mssg"
+ git push
 echo"successfully pushed to github"
 # del "push.class"
 }
